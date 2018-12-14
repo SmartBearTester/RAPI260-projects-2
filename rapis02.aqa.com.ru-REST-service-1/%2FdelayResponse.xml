@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/delayResponse" path="/delayResponse" id="ae187b2e-da1c-4414-a5a3-24803b709faf" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/delayResponse" path="/delayResponse" id="ae187b2e-da1c-4414-a5a3-24803b709faf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="ae187b2e-da1c-4414-a5a3-24803b709faffileName">%2FdelayResponse</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="GET" id="0dd179e2-f1ca-4043-9a13-b38c0e11ce50" method="GET">
-    <con:description></con:description>
+    <con:description/>
     <con:settings/>
     <con:parameters>
       <con:parameter>
         <con:name>t</con:name>
         <con:style>QUERY</con:style>
         <con:dataType>integer</con:dataType>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
@@ -23,6 +23,10 @@
     <con:request name="Request 1" id="228c4795-9f85-48ec-86ee-d764c2098d88" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

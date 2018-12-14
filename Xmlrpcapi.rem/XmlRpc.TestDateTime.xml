@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:method name="XmlRpc.TestDateTime" help="
-        DateTime
-      " id="8a373ae6-9fab-4b9e-b2de-56490169a4fe" xmlns:con="http://eviware.com/soapui/config">
+<con:method name="XmlRpc.TestDateTime" help="         DateTime       " id="8a373ae6-9fab-4b9e-b2de-56490169a4fe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="8a373ae6-9fab-4b9e-b2de-56490169a4fefileName">XmlRpc.TestDateTime</con:setting>
   </con:settings>
@@ -15,6 +13,10 @@
 <param><value><dateTime></dateTime></value></param>
 </params>
 </methodCall>]]></con:request>
+    <con:credentials>
+      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+      <con:authType>No Authorization</con:authType>
+    </con:credentials>
   </con:call>
   <con:resultParameter>dateTime</con:resultParameter>
   <con:parameter>dateTime</con:parameter>

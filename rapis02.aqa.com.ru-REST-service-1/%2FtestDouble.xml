@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/testDouble" path="/testDouble" id="96e0dfb7-d604-413c-ac6e-3bc3d857b1bc" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/testDouble" path="/testDouble" id="96e0dfb7-d604-413c-ac6e-3bc3d857b1bc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="96e0dfb7-d604-413c-ac6e-3bc3d857b1bcfileName">%2FtestDouble</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="GET" id="56effcd1-27ef-41d0-b039-67f6d361e373" method="GET">
-    <con:description></con:description>
+    <con:description/>
     <con:settings/>
     <con:parameters>
       <con:parameter>
         <con:name>t</con:name>
         <con:style>QUERY</con:style>
         <con:dataType>number</con:dataType>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
@@ -23,6 +23,10 @@
     <con:request name="Request 1" id="b5e98d6b-8b21-4996-b3c9-ef002d832a3d" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

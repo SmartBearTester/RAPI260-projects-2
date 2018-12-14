@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/testUlong" path="/testUlong" id="36da306f-8025-4703-be0e-edba1b2deb59" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/testUlong" path="/testUlong" id="36da306f-8025-4703-be0e-edba1b2deb59" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="36da306f-8025-4703-be0e-edba1b2deb59fileName">%2FtestUlong</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="GET" id="066fd7d9-dba3-4a49-a315-4d369a256f0c" method="GET">
-    <con:description></con:description>
+    <con:description/>
     <con:settings/>
     <con:parameters>
       <con:parameter>
         <con:name>t</con:name>
         <con:style>QUERY</con:style>
         <con:dataType>integer</con:dataType>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
@@ -23,6 +23,10 @@
     <con:request name="Request 1" id="efaa8147-39fc-463d-9363-8329df5de522" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

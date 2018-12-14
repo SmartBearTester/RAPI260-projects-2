@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/GetAllRecords" path="/GetAllRecords" id="db89d3f0-c55e-4596-900e-f11fa9f93530" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/GetAllRecords" path="/GetAllRecords" id="db89d3f0-c55e-4596-900e-f11fa9f93530" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="db89d3f0-c55e-4596-900e-f11fa9f93530fileName">%2FGetAllRecords</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="GET" id="dd93831b-9358-4538-b6e6-684e1cf8c00b" method="GET">
-    <con:description></con:description>
+    <con:description/>
     <con:settings/>
     <con:parameters/>
     <con:representation type="RESPONSE">
@@ -16,6 +16,10 @@
     <con:request name="Request 1" id="3e9b7034-373f-4999-a3f9-20b84a0f2ad8" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:method name="XmlRpc.TestObjectArray" help="
-        Object array
-      " id="ead1269a-e922-42fb-9827-e10a1dd85f6f" xmlns:con="http://eviware.com/soapui/config">
+<con:method name="XmlRpc.TestObjectArray" help="         Object array       " id="ead1269a-e922-42fb-9827-e10a1dd85f6f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="ead1269a-e922-42fb-9827-e10a1dd85f6ffileName">XmlRpc.TestObjectArray</con:setting>
   </con:settings>
@@ -15,6 +13,10 @@
 <param><value><array></array></value></param>
 </params>
 </methodCall>]]></con:request>
+    <con:credentials>
+      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+      <con:authType>No Authorization</con:authType>
+    </con:credentials>
   </con:call>
   <con:resultParameter>array</con:resultParameter>
   <con:parameter>array</con:parameter>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:XmlRpcService" id="aca7a502-17a4-4b84-97ec-acb2bfe9cdca" name="Xmlrpcapi.rem" type="xmlrpc" definitionUrl="http://rapis02.aqa.com.ru/xmlrpc/xmlrpcapi.rem" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:XmlRpcService" id="aca7a502-17a4-4b84-97ec-acb2bfe9cdca" name="Xmlrpcapi.rem" type="xmlrpc" definitionUrl="http://rapis02.aqa.com.ru/xmlrpc/xmlrpcapi.rem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="aca7a502-17a4-4b84-97ec-acb2bfe9cdcafileName">Xmlrpcapi.rem</con:setting>
   </con:settings>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:method name="XmlRpc.TestTwoParameters" help="
-        Two parameters
-      " id="87d76780-d2ec-4c84-8b2b-2024d306cb28" xmlns:con="http://eviware.com/soapui/config">
+<con:method name="XmlRpc.TestTwoParameters" help="         Two parameters       " id="87d76780-d2ec-4c84-8b2b-2024d306cb28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="87d76780-d2ec-4c84-8b2b-2024d306cb28fileName">XmlRpc.TestTwoParameters</con:setting>
   </con:settings>
@@ -16,6 +14,10 @@
 <param><value><int></int></value></param>
 </params>
 </methodCall>]]></con:request>
+    <con:credentials>
+      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+      <con:authType>No Authorization</con:authType>
+    </con:credentials>
   </con:call>
   <con:resultParameter>int</con:resultParameter>
   <con:parameter>int</con:parameter>

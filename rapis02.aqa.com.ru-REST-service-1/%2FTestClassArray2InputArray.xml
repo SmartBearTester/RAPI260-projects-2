@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/TestClassArray2InputArray" path="/TestClassArray2InputArray" id="89303480-300f-430a-b0ee-e4142b17c37f" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/TestClassArray2InputArray" path="/TestClassArray2InputArray" id="89303480-300f-430a-b0ee-e4142b17c37f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="89303480-300f-430a-b0ee-e4142b17c37ffileName">%2FTestClassArray2InputArray</con:setting>
   </con:settings>
   <con:parameters/>
   <con:method name="POST" id="0de814ed-0fc2-47b7-b9ab-068c619fe689" method="POST">
-    <con:description></con:description>
+    <con:description/>
     <con:settings/>
     <con:parameters/>
     <con:representation type="RESPONSE">
@@ -16,6 +16,10 @@
     <con:request name="Request 1" id="76ca1a56-02dc-4cf4-bd9f-633d08ada69a" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:RestService" id="5cf05eec-d155-42e3-9388-5e0ccf36d4cc" name="rapis02.aqa.com.ru REST service 1" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="https://rapis02.aqa.com.ru/wcfrest/Service1-Swagger-2.0%20https.json" basePath="/WCFREST/Service.svc" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:RestService" id="5cf05eec-d155-42e3-9388-5e0ccf36d4cc" name="rapis02.aqa.com.ru REST service 1" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="https://rapis02.aqa.com.ru/wcfrest/Service1-Swagger-2.0%20https.json" basePath="/WCFREST/Service.svc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:description>#### Test for Swagger 2.0
 Placed on https://rapis02.aqa.com.ru/</con:description>
   <con:settings>

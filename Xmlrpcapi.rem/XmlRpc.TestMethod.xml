@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:method name="XmlRpc.TestMethod" help="
-        Method without parameters
-      " id="eeff3173-bc66-44f1-963e-f9ee0488cd0e" xmlns:con="http://eviware.com/soapui/config">
+<con:method name="XmlRpc.TestMethod" help="         Method without parameters       " id="eeff3173-bc66-44f1-963e-f9ee0488cd0e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="eeff3173-bc66-44f1-963e-f9ee0488cd0efileName">XmlRpc.TestMethod</con:setting>
   </con:settings>
@@ -14,6 +12,10 @@
 <params>
 </params>
 </methodCall>]]></con:request>
+    <con:credentials>
+      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+      <con:authType>No Authorization</con:authType>
+    </con:credentials>
   </con:call>
   <con:resultParameter>string</con:resultParameter>
 </con:method>
