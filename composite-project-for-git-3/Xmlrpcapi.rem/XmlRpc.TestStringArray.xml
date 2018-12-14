@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:method name="XmlRpc.TestStringArray" help="
+        String array
+      " id="be1e2a35-011c-4a0a-8c21-b00fc7196873" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="be1e2a35-011c-4a0a-8c21-b00fc7196873fileName">XmlRpc.TestStringArray</con:setting>
+  </con:settings>
+  <con:call id="8ff61eee-689f-4545-890f-b3f74d315b7d" name="Request">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/xmlrpc/xmlrpcapi.rem</con:endpoint>
+    <con:request><![CDATA[<methodCall>
+<methodName>XmlRpc.TestStringArray</methodName>
+<params>
+<param><value><array></array></value></param>
+</params>
+</methodCall>]]></con:request>
+  </con:call>
+  <con:resultParameter>array</con:resultParameter>
+  <con:parameter>array</con:parameter>
+</con:method>

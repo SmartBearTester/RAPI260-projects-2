@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:method name="XmlRpc.TestDateTime" help="
+        DateTime
+      " id="8a373ae6-9fab-4b9e-b2de-56490169a4fe" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="8a373ae6-9fab-4b9e-b2de-56490169a4fefileName">XmlRpc.TestDateTime</con:setting>
+  </con:settings>
+  <con:call id="273a23fd-63b7-4e3b-95e1-00b2e36b4874" name="Request">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/xmlrpc/xmlrpcapi.rem</con:endpoint>
+    <con:request><![CDATA[<methodCall>
+<methodName>XmlRpc.TestDateTime</methodName>
+<params>
+<param><value><dateTime></dateTime></value></param>
+</params>
+</methodCall>]]></con:request>
+  </con:call>
+  <con:resultParameter>dateTime</con:resultParameter>
+  <con:parameter>dateTime</con:parameter>
+</con:method>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:method name="XmlRpc.TestBase64" help="
+        Base64
+      " id="fde9e654-261d-414c-8a09-cb9073322d90" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="fde9e654-261d-414c-8a09-cb9073322d90fileName">XmlRpc.TestBase64</con:setting>
+  </con:settings>
+  <con:call id="8395ef9b-de51-4430-8ef7-aef7d0e2534a" name="Request">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/xmlrpc/xmlrpcapi.rem</con:endpoint>
+    <con:request><![CDATA[<methodCall>
+<methodName>XmlRpc.TestBase64</methodName>
+<params>
+<param><value><base64></base64></value></param>
+</params>
+</methodCall>]]></con:request>
+  </con:call>
+  <con:resultParameter>base64</con:resultParameter>
+  <con:parameter>base64</con:parameter>
+</con:method>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/ConStroka" path="/ConStroka" id="646ade62-f15a-4eca-8b70-4fd05bc5108d" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="646ade62-f15a-4eca-8b70-4fd05bc5108dfileName">%2FConStroka</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="7ea207c8-d085-409a-9fce-b5f160d49b2b" method="GET">
+    <con:description></con:description>
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>x</con:name>
+        <con:style>QUERY</con:style>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>y</con:name>
+        <con:style>QUERY</con:style>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="1ff76917-9539-4df7-b663-7b79d8244314" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:request/>
+      <con:originalUri>http://rapis02.aqa.com.ru/WCFREST/Service.svc/ConStroka</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:jmsPropertyConfig/>
+      <con:parameters>
+        <con:entry key="x" value="Test"/>
+        <con:entry key="y" value="String"/>
+      </con:parameters>
+    </con:request>
+  </con:method>
+</con:resource>
