@@ -129,7 +129,6 @@ Xmlrpcapi.rem\XmlRpc.TestString.xml
 Xmlrpcapi.rem\XmlRpc.TestStringArray.xml
 Xmlrpcapi.rem\XmlRpc.TestStruct.xml
 Xmlrpcapi.rem\XmlRpc.TestTwoParameters.xml
-SecurityTest-1.xml
 TestSuite-1\TestCase-1.xml
 TestSuite-2\TestCase-1.xml
 TestSuite-3\TestCase-1.xml
