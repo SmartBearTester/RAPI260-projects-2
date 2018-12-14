@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/Stroka" path="/Stroka" id="d9f40cd7-7fa4-4445-ad8a-90f0ab5813d0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="d9f40cd7-7fa4-4445-ad8a-90f0ab5813d0fileName">%2FStroka</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="f307e7aa-1e6f-4d8a-ae55-46baa5412d8e" method="GET">
+    <con:description></con:description>
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="b4f46d43-862f-4a3f-b400-e4c1ca356427" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

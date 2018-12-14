@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/Vse" path="/Vse" id="12ac05b3-d0a2-432a-9323-030b270cbc4d" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="12ac05b3-d0a2-432a-9323-030b270cbc4dfileName">%2FVse</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="e5558a3f-e048-4b8c-af92-bb134b23fbf8" method="GET">
+    <con:description></con:description>
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>x</con:name>
+        <con:style>QUERY</con:style>
+        <con:dataType>integer</con:dataType>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>y</con:name>
+        <con:style>QUERY</con:style>
+        <con:dataType>integer</con:dataType>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>z</con:name>
+        <con:style>QUERY</con:style>
+        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="63fb7458-7354-4d70-92f2-ea8fcb2f5d19" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
