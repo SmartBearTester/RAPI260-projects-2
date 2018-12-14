@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="Date" id="beb353ea-f902-435d-ac81-95ee7e463690" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="beb353ea-f902-435d-ac81-95ee7e463690fileName">Date</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="188023fe-639f-4c2e-92ec-99f29094923f" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="b7a5c571-c785-4a0b-b49c-e851ed97fc4a" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
